@@ -1,25 +1,72 @@
+:root {
+    /* Colours */
+    --pri-0: #B894D4;
+    --pri-1: #F4ECFB;
+    --pri-2: #DAC2EB;
+    --pri-3: #9367B5;
+    --pri-4: #734398;
+    --bgc-0: #eeeeee;
+    --blk-0: #111111;
+
+    /* Fonts */
+    /* --ffam: Verdana, Geneva, Tahoma, sans-serif; */
+    --ffam: "Segoe Print";
+    --ftxt: "Lato", sans-serif;
+}
+
 body {
     margin: 0;
+    font-family: var(--ffam);
+    background-color: var(--pri-1);
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--ffam);
 }
 .topnav {
-    background-color: aquamarine;
+    background-color: var(--pri-0);
 }
 .logo {
-    max-height: 50px;
+    max-height: 60px;
     margin: 5px;
+    /* background-color: var(--bgc-0); */
 }
 .navbar {
     float: right;
-    background-color: #fff;
-    border: 1px solid black;
     overflow: hidden;
+    padding: 1.3em 1.5em;
 }
 .navbar a {
     text-decoration: none;
     text-align: center;
-    padding: 14px 16px;
+    padding: 12px 16px;
+    font-size: 1.2em;
+    color: #000;
+    font-weight: 700;
+    font-family: var(--ffam);
 }
 .navbar a:hover {
-    background-color: blueviolet;
-    color: #fff;
+    background-color: var(--pri-4);
+    color: var(--bgc-0);
+}
+.banner {
+    width: 100%;
+}
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+p {
+    font-family: var(--ftxt);
+}
+footer {
+    background-color: var(--pri-2);
+    font-family: var(--ffam);
+    border-top: 1px solid var(--pri-4);
+    border-bottom: 1px solid var(--pri-4);
+}
+footer ul {    
+    list-style-type: none;
+    font-size: .6em;
+    color: var(--blk-0);
+    font-weight: 500;
 }
