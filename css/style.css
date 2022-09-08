@@ -1,0 +1,25 @@
+body {
+    margin: 0;
+}
+.topnav {
+    background-color: aquamarine;
+}
+.logo {
+    max-height: 50px;
+    margin: 5px;
+}
+.navbar {
+    float: right;
+    background-color: #fff;
+    border: 1px solid black;
+    overflow: hidden;
+}
+.navbar a {
+    text-decoration: none;
+    text-align: center;
+    padding: 14px 16px;
+}
+.navbar a:hover {
+    background-color: blueviolet;
+    color: #fff;
+}
