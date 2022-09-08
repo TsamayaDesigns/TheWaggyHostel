@@ -63,6 +63,7 @@ footer {
     font-family: var(--ffam);
     border-top: 1px solid var(--pri-4);
     border-bottom: 1px solid var(--pri-4);
+    margin-top: 2em;
 }
 footer ul {    
     list-style-type: none;
