@@ -34,7 +34,7 @@ h1,h2,h3,h4,h5,h6 {
 .navbar {
     float: right;
     overflow: hidden;
-    padding: 1.3em 1.5em;
+    padding: 1.2em 1.5em;
 }
 .navbar a {
     text-decoration: none;
@@ -51,6 +51,7 @@ h1,h2,h3,h4,h5,h6 {
 }
 .banner {
     width: 100%;
+    border-top: 1px solid #734398;
 }
 .container {
     width: 90%;
