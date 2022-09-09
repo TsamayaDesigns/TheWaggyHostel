@@ -16,7 +16,7 @@
 
 body {
     margin: 0;
-    font-family: var(--ffam);
+    font-family: var(--ftxt);
     background-color: var(--pri-1);
     box-sizing: border-box;
 }
@@ -55,10 +55,45 @@ h1,h2,h3,h4,h5,h6 {
 .container {
     width: 90%;
     margin: 0 auto;
+    background-color: var(--pri-1)
 }
 p {
     font-family: var(--ftxt);
 }
+.centered {
+    text-align: center;
+}
+.winners {
+    display: flex;
+    align-items: center;
+    text-align: center;    
+}
+.img-win1 {
+    background-image: url(/img/camera_dog.jpg);
+    height: 60%;
+}
+.img-win2 {
+    background-image: url(/img/scanner_dog.jpg);
+    height: 60%;
+}
+.img-win {
+    flex: 50%;
+}
+.img-win1, .img-win2 {
+    padding: 5em;
+    margin: 1em 2em;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    border: 1px solid var(--pri-4);
+    border-radius: 15px;
+    box-shadow: var(--blk-0) 2px 3px;
+}
+.txt-win {
+    color: var(--blk-0);
+}
+
 footer {
     background-color: var(--pri-2);
     font-family: var(--ffam);
