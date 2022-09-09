@@ -69,11 +69,11 @@ p {
     text-align: center;    
 }
 .img-win1 {
-    background-image: url(/img/camera_dog.jpg);
+    background-image: url(img/camera_dog.jpg);
     height: 60%;
 }
 .img-win2 {
-    background-image: url(/img/scanner_dog.jpg);
+    background-image: url(img/scanner_dog.jpg);
     height: 60%;
 }
 .img-win {
